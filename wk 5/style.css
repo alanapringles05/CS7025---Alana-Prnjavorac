@@ -1,0 +1,61 @@
+/* Set background color and center all content vertically and horizontally */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f2; /* Light blue/gray background */
+}
+
+/* Style for the main header */
+h1 {
+  color: #d82d27; /* Darker color for contrast */
+  font-size: 4em;
+  margin-bottom: 0.1em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Light text shadow */
+}
+
+/* Style for the subtitle */
+h4 {
+  color: #34495e;
+  font-size: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+/* Style the image and ensure it is centered */
+img {
+  width: 500px; /* Larger image size */
+  height: 500px; /* Maintain square ratio */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  margin-bottom: 2em;
+  transition: transform 0.3s ease; /* Smooth transition effect on hover */
+}
+
+/* Style for the button */
+button {
+  padding: 12px 25px;
+  font-size: 1.2em;
+  background-color: #1abc9c; /* Teal color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow to button */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #16a085; /* Darker teal on hover */
+  transform: scale(1.05); /* Slight enlarge effect */
+}
+
+/* Additional styling for smoother text transitions */
+body, h1, h4, button {
+  transition: all 0.3s ease;
+}
