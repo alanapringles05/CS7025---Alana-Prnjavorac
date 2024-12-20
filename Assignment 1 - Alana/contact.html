@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <meta name="description" content="Get in touch with Alana Prnjavorac, a multimedia designer. Contact for freelance work or collaboration.">
+    <meta name="keywords" content="Contact Alana Prnjavorac, multimedia designer contact, hire multimedia designer, Dublin multimedia designer, freelance designer, sound production, video production, UX/UI design, graphic design, collaboration">
+    <meta name="author" content="Alana Prnjavorac">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+      <img src="media/logo.png" alt="logo">
+      <a href="Homepage.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+
+      <h1 class="center-text">THANK YOU FOR YOUR TIME</h1>
+      <h2 class="center-text">Get in touch</h2>
+      <p class="center-text">Use this form or reach me at prnjavoa@tcd.ie </p>
+
+    <form id="contactForm">
+      <!-- Form for users to submit their contact information -->
+      <label for="fname">First Name:</label>
+      <!-- First name field, marked as required for user input validation -->
+      <input type="text" id="fname" name="fname" required><br><br>
+
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname" required><br><br>
+
+      <label for="email">Email Address:</label>
+      <!-- Email field with type='email' for built-in validation -->
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="subject">Subject:</label>
+      <!-- Submit button to send form data -->
+      <input type="text" id="subject" name="subject"><br><br>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" maxlength="500" required></textarea>
+      <p id="charCount">0 / 500</p> <!-- Character Counter -->
+      <br><br>
+
+      <p id="formMessage"></p> <!-- Success/Error Message Display -->
+      <input type="submit" value="Submit">
+    </form>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" title="Go to top">↑</button>
+
+    <div class="footer">
+      <div class="social-links">
+          <a href="https://www.instagram.com/alana._.p/" target="_blank">
+            <img src="media/insta.png" alt="instagram"></a>
+          <a href="https://www.linkedin.com/in/alanaprn" target="_blank">
+            <img src="media/linkdin.png" alt="Linkdin"></a>
+          <a href="mailto:prnjavoa@tcd.ie" target="_blank">
+            <img src="media/gmail.png" alt="Gmail"></a>
+      </div>
+
+      <div class="footer-nav">
+          <a href="Homepage.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+      </div>
+    </div>
+   <script src="script.js"></script>
+  </body>
+</html>

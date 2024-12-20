@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Homepage</title>
+    <!-- Meta tags to enhance SEO, ensuring the page appears in relevant search results and describing the page’s purpose -->
+    <meta name="description" content="Explore the multimedia design portfolio of Alana Prnjavorac.">
+    <meta name="keywords" content="Alana Prnjavorac, multimedia designer,portfolio, sound production, video production, grapgic design, ux/ui design, coding.">
+    <meta name="author"  content="Alana Prnjavorac">
+    <!-- Linking the external stylesheet for styling consistency across pages -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Navigation bar for primary site navigation to improve accessibility and userflow-->
+    <div class="navbar">
+      <!--Logo to reinforce branding, representing my identity-->
+      <img src="media/logo.png" alt="Alana Prnjavorac Logo">
+      <!--Navigation links to enchance useability, providing quick access to all pages-->
+      <a href="Homepage.html" class="active">Home</a><!-- Highlighting the current page with 'active' class -->
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <!--Hero section to draw users in with a visually striking introduction and quick contect abour me, the designer-->
+    <div class="hero">
+      <img src="media/photos/mountain.jpg" alt="Mountain landscape background">
+      <div class="hero-content">
+        <div class="hero-header">
+          <h1 class="hero-title">Alana</h1>
+          <h3 class="hero-subtitle">Multimedia Designer</h3>
+        </div>
+        <h1 class="hero-second-title">Prnjavorac</h1>
+        <a href="about.html" class="button-project">About Me</a>
+      </div>
+    </div>
+
+    <!--Introduction to project section; explains the portfolio's content and invites exploration-->
+    <div class="browseProjects">
+        <h1>Browse my projects</h1>
+        <p> Welcome to my portfolio! I’m a multimedia designer specialising in sound production, video, UX/UI, and more. Explore my projects and learn about my journey below. Just click on the image of the project you would like to explore!</p>
+    </div>
+
+    <!--Projects grid; organised for intuitive browsing, showcases key portfolio items-->
+    <div class="projects-grid">
+        <!-- Each project card directs users to a specific project section -->
+        <div class="project-card">
+            <div class="imgBox">
+                <a href="projects.html#soundProduction">
+                  <!-- Thumbnail image previews the project content and draws interest and is the same for all 6 project cards-->
+                  <img src="media/sound/soundproduction.jpg" alt="Sound Production">
+                  <!-- Hover text adds additional information without taking up space -->
+                  <p class="hovertext">Sound Production</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="imgBox">
+                <a href="projects.html#videoProduction">
+                  <img src="media/video/videoproduction.jpg" alt="Video Production">
+                  <p class="hovertext">Video Production</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="imgBox">
+                <a href="projects.html#uxui">
+                  <img src="media/uxui/uxui.jpg" alt="UX/UI Design">
+                  <p class="hovertext">UX/UI Design</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="imgBox">
+                <a href="projects.html#coding">
+                  <img src="media/coding/coding.jpg" alt="Coding">
+                  <p class="hovertext">Coding</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="imgBox">
+                <a href="projects.html#photography">
+                  <img src="media/photos/leaves.jpg" alt="Photography">
+                  <p class="hovertext">Photography</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="imgBox">
+                <a href="projects.html#design">
+                  <img src="media/design/Colour5.png" alt="Design">
+                  <p class="hovertext">Design</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact call-to-action prompts users to reach out, providing an accessible contact link -->
+    <div class= "contact-cta">
+        <br>
+        <h1>Get in contact</h1>
+        <a href="contact.html" class= "button-primary">Contact Me</a>
+    </div>
+
+    <!-- Back to Top Button -->
+<button id="backToTop" title="Go to top">↑</button>
+
+    <!-- Footer section: offers additional navigation and social media links to extend reach and connectivity -->
+    <div class="footer">
+        <!-- Social links to social platforms and email for better accessibility-->
+        <div class="social-links">
+            <a href="https://www.instagram.com/alana._.p/" target="_blank">
+              <img src="media/insta.png" alt="instagram"></a>
+            <a href="https://www.linkedin.com/in/alanaprn" target="_blank">
+              <img src="media/linkdin.png" alt="Linkdin"></a>
+            <a href="mailto:prnjavoa@tcd.ie" target="_blank">
+              <img src="media/gmail.png" alt="Gmail"></a>
+        </div>
+        <!-- Footer navigation duplicates main nav for easy access at the page bottom -->
+        <div class="footer-nav">
+            <a href="Homepage.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+ <script src="script.js"></script>
+</body>
+</html>
